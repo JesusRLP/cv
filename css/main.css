@@ -1,0 +1,42 @@
+:root{
+    --color-fondo: white;
+    --color-principal: #0f6763;
+    --color-texto-invertido: #ffffff;
+    --color-secundario: #b8a92a;
+    --color-texto: #080808;
+    --navbar-color: #D7DCD8;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    padding-top: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-texto);
+}
+
+.horizontal-pad{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.vertical-pad{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@media(min-width= 800px){
+    .horizontal-pad{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+    .vertical-pad{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}

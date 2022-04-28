@@ -1,0 +1,37 @@
+.contact-list{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    list-style: none;
+    padding: 1em;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: left;
+    
+}
+
+.title_contact{
+    padding: 0.5em;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.contact-list li{
+    padding: 0;
+    text-align: left;
+}
+
+.contacto{
+    background-color: var(--color-principal);
+}
+
+@media(min-width: 800px){
+    .title_contact{
+        padding: 1em;
+    }
+
+    .contact-list li{
+        font-size: 25px;
+        padding: 3px 15px;
+        text-align: left;
+    }
+}
